@@ -13,14 +13,21 @@ export default function ServiceCard({ service }: ServiceCardProps) {
   
   const IconComponent = Icons[service.icon as keyof typeof Icons] as React.ElementType;
   
-  const getNestedValue = (path: string) => {
-    return path.split('.').reduce((obj, key) => obj?.[key as keyof typeof obj], t) as string;
+  // Obtener las traducciones anidadas correctamente
+  const getNestedValue = (path: string): string => {
+    const keys = path.split('.');
+    let result: any = t;
+    for (const key of keys) {
+      result = result?.[key];
+      if (!result) break;
+    }
+    return result || '';
   };
   
   return (
     <div className="p-8 bg-surface-container-lowest rounded-xl hover:shadow-2xl transition-all duration-500 group h-full flex flex-col">
-      <div className="w-12 h-12  rounded-lg flex items-center justify-center text-primary mb-6 group-hover:bg-black group-hover:text-on-primary transition-all"
-      style={{ backgroundColor: 'rgba(82, 101, 245, 0.2)' }}
+      <div className="w-12 h-12 rounded-lg flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-on-primary transition-all"
+        style={{ backgroundColor: 'rgba(82, 101, 245, 0.2)' }}
       >
         {IconComponent && <IconComponent size={24} strokeWidth={1.5} />}
       </div>
