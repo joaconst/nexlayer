@@ -1,0 +1,173 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "about": "Nosotros",
+    "portfolio": "Portafolio",
+    "pricing": "Precios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "eyebrow": "DESARROLLO WEB & MÓVIL",
+    "headline": "Hacemos Productos Digitales que Escalan",
+    "subheadline": "Desde landing pages hasta aplicaciones full-stack complejas — entregamos código de calidad, a tiempo, siempre.",
+    "motto": "Crecimeinto empresarial",
+    "cta_primary": "Ver Nuestro Trabajo",
+    "cta_secondary": "Obtener Cotización"
+  },
+  "services": {
+    "section_title": "Qué Construimos",
+    "section_subtitle": "Soluciones digitales integrales adaptadas a tus objetivos.",
+    "frontend": {
+      "title": "Desarrollo Frontend",
+      "description": "Interfaces accesibles y pixel-perfect con React, Next.js y Tailwind. Rápidas, responsivas y diseñadas para convertir.",
+      "price": "Desde $500"
+    },
+    "backend": {
+      "title": "Desarrollo Backend",
+      "description": "APIs escalables, bases de datos y lógica de servidor con Node.js, Postgres e infraestructura cloud.",
+      "price": "Desde $800"
+    },
+    "fullstack": {
+      "title": "Desarrollo Full Stack",
+      "description": "Aplicaciones web completas desde el diseño hasta el despliegue. Autenticación, dashboards e integraciones incluidas.",
+      "price": "Desde $1,500"
+    },
+    "mobile": {
+      "title": "Desarrollo de Apps Móviles",
+      "description": "Apps iOS y Android multiplataforma con React Native. Rendimiento nativo, código compartido.",
+      "price": "Desde $3,000"
+    }
+  },
+  "about": {
+    "section_title": "Sobre NexLayer",
+    "title": "Equipo pequeño.",
+    "title_highlight": "Resultados élite.",
+    "description": "Somos un equipo pequeño de desarrolladores senior obsesionados con el código limpio y los resultados medibles. Sin juniors, sin subcontratistas — solo ingenieros experimentados que entregan.",
+    "team_photo": "Foto del Equipo",
+    "values": {
+      "quality": {
+        "title": "Calidad Sin Compromisos",
+        "text": "Tratamos cada línea de código como un bloque arquitectónico en una obra maestra."
+      },
+      "speed": {
+        "title": "Velocidad de Ejecución",
+        "text": "Ciclos rápidos de prototipado y despliegue para mantenerte adelante."
+      },
+      "communication": {
+        "title": "Comunicación Transparente",
+        "text": "Acceso directo a los ingenieros, sin ruido de gerencia media."
+      }
+    }
+  },
+  "portfolio": {
+    "section_title": "Nuestro Trabajo",
+    "section_subtitle": "Una selección de proyectos de los que estamos orgullosos.",
+    "view_project": "Ver Proyecto"
+  },
+  "pricing": {
+    "section_title": "Precios Transparentes",
+    "section_subtitle": "Sin sorpresas. Sin cargos ocultos. Solo tarifas claras y justas.",
+    "most_popular": "Más Popular",
+    "cta_start": "Comenzar",
+    "cta_contact": "Hablemos",
+    "per_project": "por proyecto",
+    "lets_talk": "hablemos",
+    "basic": {
+      "name": "Web Básica",
+      "price": "$500",
+      "features": [
+        "Página de aterrizaje profesional",
+        "Diseño totalmente responsivo",
+        "Configuración SEO básica",
+        "Integración de formulario de contacto"
+      ]
+    },
+    "pro": {
+      "name": "App Web Pro",
+      "price": "$1,500",
+      "features": [
+        "Aplicación full stack",
+        "Autenticación y perfiles de usuario",
+        "Panel de administración",
+        "Integraciones API"
+      ]
+    },
+    "enterprise": {
+      "name": "Empresarial",
+      "price": "Personalizado",
+      "features": [
+        "Infraestructura personalizada",
+        "Soporte de equipo dedicado",
+        "Optimización de escala y rendimiento",
+        "Auditoría de seguridad"
+      ]
+    }
+  },
+  "testimonials": {
+    "section_title": "Lo Que Dicen Nuestros Clientes",
+    "list": [
+      {
+        "id": "test-1",
+        "quote": "NexLayer entregó nuestro dashboard en 12 días. La calidad del código fue excepcional y la comunicación fue diaria. Muy recomendado.",
+        "name": "Sofia Reyes",
+        "company": "FinTrack Inc.",
+        "avatar": "SR"
+      },
+      {
+        "id": "test-2",
+        "quote": "Lanzamos nuestra aplicación móvil a tiempo y dentro del presupuesto. La arquitectura React Native que eligieron ha hecho que sea muy fácil de mantener.",
+        "name": "Marcus Chen",
+        "company": "EcoMarket",
+        "avatar": "MC"
+      },
+      {
+        "id": "test-3",
+        "quote": "Su atención al detalle y soporte bilingüe marcaron la diferencia. Atendemos mercados de EE.UU. y LATAM y NexLayer lo entendió desde el primer día.",
+        "name": "Valentina Mora",
+        "company": "LogiFlow",
+        "avatar": "VM"
+      }
+    ]
+  },
+  "contact": {
+    "section_title_start": "Listo para construir",
+    "section_title_highlight": "tu proyecto",
+    "section_title_end": "?",
+    "section_subtitle": "Contáctenos hoy para analizar los requisitos de su proyecto y obtener una cotización detallada dentro de las 24 horas.",
+    "email_label": "Escríbenos directamente:",
+    "email": "hello@nexlayer.dev",
+    "whatsapp_label": "O envíanos un mensaje a:",
+    "whatsapp_text": "Chatea con nosotros",
+    "form": {
+      "name": "Nombre Completo",
+      "name_placeholder": "Juan Pérez",
+      "email": "Correo Electrónico",
+      "email_placeholder": "juan@ejemplo.com",
+      "message": "Cuéntanos sobre tu proyecto",
+      "message_placeholder": "Describe tu idea, requisitos y objetivos...",
+      "budget": "Rango de Presupuesto",
+      "budget_default": "Selecciona un rango",
+      "budget_options": [
+        "< $500",
+        "$500 - $1,500",
+        "$1,500 - $3,000",
+        "$3,000+"
+      ],
+      "submit": "Enviar Mensaje",
+      "submitting": "Enviando...",
+      "success": "¡Mensaje enviado! Te responderemos en menos de 24 horas.",
+      "error": "Algo salió mal. Intenta de nuevo o escríbenos directamente."
+    },
+    "errors": {
+      "name_required": "Tu nombre es obligatorio.",
+      "email_required": "El correo electrónico es obligatorio.",
+      "email_invalid": "Por favor ingresa un correo válido.",
+      "message_required": "Por favor describe tu proyecto (mínimo 20 caracteres).",
+      "budget_required": "Por favor selecciona un rango de presupuesto."
+    }
+  },
+  "footer": {
+    "tagline": "Construyendo excelencia digital.",
+    "copyright": "© 2026 NexLayer. Ingeniería para la Innovación."
+  }
+}

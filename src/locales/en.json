@@ -1,0 +1,173 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "WEB & MOBILE DEVELOPMENT",
+    "headline": "We Build Digital Products That Scale",
+    "subheadline": "From sleek landing pages to complex full-stack apps — we deliver quality code, on time, every time.",
+    "motto": "Business Growth",
+    "cta_primary": "See Our Work",
+    "cta_secondary": "Get a Quote"
+  },
+  "services": {
+    "section_title": "What We Build",
+    "section_subtitle": "End-to-end digital solutions tailored to your goals.",
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Pixel-perfect, accessible UIs with React, Next.js, and Tailwind. Fast, responsive, and built to convert.",
+      "price": "From $500"
+    },
+    "backend": {
+      "title": "Backend Development",
+      "description": "Scalable APIs, databases, and server logic with Node.js, Postgres, and cloud infrastructure.",
+      "price": "From $800"
+    },
+    "fullstack": {
+      "title": "Full Stack Development",
+      "description": "Complete web applications from design to deployment. Authentication, dashboards, and integrations included.",
+      "price": "From $1,500"
+    },
+    "mobile": {
+      "title": "Mobile App Development",
+      "description": "Cross-platform iOS & Android apps with React Native. Native performance, shared codebase.",
+      "price": "From $3,000"
+    }
+  },
+  "about": {
+    "section_title": "About NexLayer",
+    "title": "Small team.",
+    "title_highlight": "Elite results.",
+    "description": "We are a lean, senior-level development team obsessed with clean code and measurable results. No juniors, no subcontracting — just experienced engineers who ship.",
+    "team_photo": "Team Photo",
+    "values": {
+      "quality": {
+        "title": "Quality Without Compromise",
+        "text": "We treat every line of code as a architectural block in a masterpiece."
+      },
+      "speed": {
+        "title": "Execution Speed",
+        "text": "Rapid prototyping and deployment cycles to keep you ahead of the curve."
+      },
+      "communication": {
+        "title": "Transparent Communication",
+        "text": "Direct access to engineers, no middle-management noise."
+      }
+    }
+  },
+  "portfolio": {
+    "section_title": "Our Work",
+    "section_subtitle": "A selection of projects we're proud of.",
+    "view_project": "View Project"
+  },
+  "pricing": {
+    "section_title": "Pricing Packages",
+    "section_subtitle": "Scalable solutions for businesses at every stage of growth.",
+    "most_popular": "Most Popular",
+    "cta_start": "Get Started",
+    "cta_contact": "Let's Talk",
+    "per_project": "per project",
+    "lets_talk": "let's talk",
+    "basic": {
+      "name": "Basic Web",
+      "price": "$500",
+      "features": [
+        "Professional Landing Page",
+        "Fully Responsive Design",
+        "Basic SEO Setup",
+        "Contact Form Integration"
+      ]
+    },
+    "pro": {
+      "name": "Pro Web App",
+      "price": "$1,500",
+      "features": [
+        "Full Stack Application",
+        "User Auth & Profiles",
+        "Admin Dashboard",
+        "API Integrations"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Custom",
+      "features": [
+        "Custom Infrastructure",
+        "Dedicated Team Support",
+        "Scale & Performance Optimization",
+        "Security Auditing"
+      ]
+    }
+  },
+  "testimonials": {
+    "section_title": "What Clients Say",
+    "list": [
+      {
+        "id": "test-1",
+        "quote": "NexLayer delivered our dashboard in 12 days. The code quality was exceptional and the communication was daily. Highly recommended.",
+        "name": "Sofia Reyes",
+        "company": "FinTrack Inc.",
+        "avatar": "SR"
+      },
+      {
+        "id": "test-2",
+        "quote": "We launched our mobile app on time and under budget. The React Native architecture they chose has made it trivially easy to maintain.",
+        "name": "Marcus Chen",
+        "company": "EcoMarket",
+        "avatar": "MC"
+      },
+      {
+        "id": "test-3",
+        "quote": "Their attention to detail and bilingual support made the difference. We serve both US and LATAM markets and NexLayer understood that from day one.",
+        "name": "Valentina Mora",
+        "company": "LogiFlow",
+        "avatar": "VM"
+      }
+    ]
+  },
+  "contact": {
+    "section_title_start": "Ready to build",
+    "section_title_highlight": "your project",
+    "section_title_end": "?",
+    "section_subtitle": "Contact us today to discuss your project requirements and get a detailed quote within 24 hours.",
+    "email_label": "Email us directly:",
+    "email": "hello@nexlayer.dev",
+    "whatsapp_label": "Or send us a message on:",
+    "whatsapp_text": "Chat with us",
+    "form": {
+      "name": "Full Name",
+      "name_placeholder": "John Doe",
+      "email": "Email Address",
+      "email_placeholder": "john@example.com",
+      "message": "Tell us about your project",
+      "message_placeholder": "Describe your idea, requirements, and goals...",
+      "budget": "Budget Range",
+      "budget_default": "Select a range",
+      "budget_options": [
+        "< $500",
+        "$500 - $1,500",
+        "$1,500 - $3,000",
+        "$3,000+"
+      ],
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": "Message sent! We'll reply within 24 hours.",
+      "error": "Something went wrong. Please try again or email us directly."
+    },
+    "errors": {
+      "name_required": "Your name is required.",
+      "email_required": "Email address is required.",
+      "email_invalid": "Please enter a valid email address.",
+      "message_required": "Please describe your project (minimum 20 characters).",
+      "budget_required": "Please select a budget range."
+    }
+  },
+  "footer": {
+    "tagline": "Building digital excellence.",
+    "copyright": "© 2026 NexLayer. Engineered for Innovation.."
+  }
+}
